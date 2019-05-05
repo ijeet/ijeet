@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$('body').bind('cut copy paste', function (e) {
+		e.preventDefault();
+	})
+	$(".code").on("contextmenu", function(e) {
+		return false;
+	})
+})
+
+</script>
+</head>
+<body>
+
+<h1>Disable right click and other things</h1>
+
+
+
+<h5 class="code"> Hello what happen </h5>
+
+</body>
+</html>
