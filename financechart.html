@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Financial Chart</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$('body').bind('cut copy paste', function (e) {
+		e.preventDefault();
+	})
+	$("body").on("contextmenu", function(e) {
+	/* change the ".code" to "body" to disable all the part. otherwise it will disable only where class="code" will be mentioned in html body part. */
+		return false;
+	})
+})
+
+</script>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+</head>
+<body align="center" style:"background-color:#f5f5f5;" background="body-bg3.png";
+color: #444;>
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLScX3Qr9KcAvbkc5ZP8tpduMDPGxGLLhbf3fEumi9C4H2sOPIg/formResponse" target="_self" method="post" id="mG61Hd">
+    Type<br>
+    <input type="radio" name="entry.571924574" jsname="L9xHkb" value="Income">Income<br>
+	<input type="radio" name="entry.571924574" value="Outcome">Outcome<br>
+    <br>
+    Ammount<input type="number" name="entry.1397763770"><br>
+
+   Comments:<br>
+   <input type="text" name="entry.1234519767" size="35" style="width:500px; height:200px;"><br><br>
+   <input type="submit" value="Submit">
+</form>
+</body>
+
+
+</html>
