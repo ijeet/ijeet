@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<title>Default</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer src="jquery_1_11_1_min.js"></script>
+<script defer src="https://ijeet.github.io/jquery_1_11_1_min.js"></script>
+<script defer type="text/javascript">
+
+
+$(document).ready(function() {
+	$('body').bind('cut copy paste', function (e) {
+		e.preventDefault();
+	})
+	$("body").on("contextmenu", function(e) {
+	/* change the ".code" to "body" to disable all the part. otherwise it will disable only where class="code" will be mentioned in html body part. */
+		return false;
+	})
+})
+
+</script>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+</head>
+
+<body >
+<h1>Default Template</h1>
+<h5>def</h5>
+</html>
